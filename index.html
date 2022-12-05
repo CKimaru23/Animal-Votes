@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="db.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Vote for your cutest animal</title>
+</head>
+<body>
+    <div class="showcase">
+        <h1 class="bg-img-title">Vote for your favourite animal: </h1>
+        
+        <div id="lists">
+            <div id="list"> 
+                <!-- <div id="content">
+                            
+                </div> -->
+                    
+                <!-- <div class="actions">
+                    <button class="moreInfo">More Info...</button>
+                </div> -->
+            </div> 
+        </div>
+        <div class="animalInfo">
+            <div id="moreInfo">
+                <p id="animalName"></p>
+                <img id="image" src="vote2.png" alt="animal's name" />
+                <h4>Animal ID:
+                    <span id="id"></span>
+                    &nbsp;&nbsp; Total Votes: 
+                    <span id="animalVotes"></span>
+                </h4>
+                <form id="votesForm">
+                    <input type="text" placeholder="Enter votes" id="votes" name="votes"/>
+                    <input type="submit" id="add" value="Add votes"/>
+                </form>
+                <button id="reset">Reset Votes</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
